@@ -36,6 +36,38 @@ div {
 }
     /* Main Content */
 
+.main-banner {
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25em;
+}
+
+.headline {
+  background-color: black;
+  color: white;
+  width: 20em;
+  padding: 2em 3em;
+  position: relative;
+  top: 9em;
+}
+
+.headline h1 {
+  font-size: 2em;
+  margin: 0.25em 0;
+}
+
+h1 {
+  display: block;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+
     /* Footer */
 
 footer {
