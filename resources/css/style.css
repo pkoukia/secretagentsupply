@@ -1,14 +1,39 @@
     /* Universal */
+html {
+  font-size: 18px;
+}
 
+body {
+  font-family: "helvitica", sans-serif;;
+  margin: 0;
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+    /* Header */
 .company {
   background-color: black;
   color: white;
 }
 
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 0.5em;
+}
 
-    /* Header */
+.company img{
+  padding-right: 15px;
+  height: 1.5em;
+}
 
-
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
     /* Main Content */
 
     /* Footer */
