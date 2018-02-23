@@ -34,7 +34,7 @@ div {
   max-width: 960px;
   margin: 0 auto;
 }
-    /* Main Content */
+    /* Banner */
 
 .main-banner {
   background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
@@ -66,8 +66,24 @@ h1 {
 h4 {
   font-weight: bold;
 }
+    /* Navigation Bar */
 
+nav {
+  background-color: firebrick;
+  color: white;
+}
 
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em 0;
+  list-style: none;
+}
+
+li {
+  display: list-item;
+}
     /* Footer */
 
 footer {
