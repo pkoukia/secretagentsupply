@@ -109,6 +109,9 @@ li {
   }
 }
     /* Products */
+.product {
+  width: 30%;
+}
 
 .products {
   display: flex;
