@@ -84,7 +84,7 @@ body,html {
 
   .headline  {
     box-sizing: border-box
-    width: 100%;
+    width: 80%;
     padding: 1rem 1rem;
     top: 8rem;
   }
