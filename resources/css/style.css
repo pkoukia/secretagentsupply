@@ -4,8 +4,8 @@ html {
 }
 
 body {
-  font-family: "helvitica", sans-serif;;
-  margin: 0;
+  font-family: "helvitica", sans-serif;
+  line-height: 1.4;
   display: block;
 }
 
@@ -19,14 +19,11 @@ div {
   display: block;
 }
 
-h1 {
-  display: block;
-  font-weight: bold;
-}
-
+h1,
 h4 {
   font-weight: bold;
 }
+
 
     /* Header */
 .company {
