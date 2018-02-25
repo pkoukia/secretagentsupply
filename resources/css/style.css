@@ -19,6 +19,15 @@ div {
   display: block;
 }
 
+h1 {
+  display: block;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+}
+
     /* Header */
 .company {
   background-color: black;
@@ -64,14 +73,26 @@ div {
   margin: 0.25em 0;
 }
 
-h1 {
-  display: block;
-  font-weight: bold;
+@media only screen and (max-width: 470px) {
+  .main-banner {
+    height: 15rem;
+  }
 }
 
-h4 {
-  font-weight: bold;
+.headline {
+  width: 100%;
+  padding: 1rem 2rem;
+  top: 10rem;
 }
+
+.headline h4 {
+  font-size: .77rem;
+}
+
+.headline h1{
+  font-size: 1rem;
+}
+
     /* Navigation Bar */
 
 nav {
