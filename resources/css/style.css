@@ -78,6 +78,7 @@ body,html {
 @media only screen and (max-width: 470px) {
   .main-banner {
     height: 15rem;
+    box-sizing: border-box
   }
 
 
